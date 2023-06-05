@@ -1,0 +1,8 @@
+* Lunes 5 de Julio.
+
+	- Instalarme en el puesto.
+
+	- Leer documentacion d ela empresa.
+
+	- Realizar tutorial de Laravel.
+
