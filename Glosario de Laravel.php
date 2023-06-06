@@ -1,6 +1,14 @@
 <?php
 
 
+// Comandos del artisan
+
+// asignar a un alis hacer todas las pruebas que tengas en los archivos test
+ alias t=vendor/bin/phpunit
+
+
+
+
 * Donde estan las cosas:
 
 // Rutas para la web en: 
@@ -9,12 +17,19 @@ routes/web.php
 // Vistas
 resource/views/
 
-// Controladores
-app/Http/Controlles
-
 // Migraciones
 database/migrations
 
+
+// Controladores
+app/Http/Controlles
+
+
+// Vistas en Cache
+storage/framework/views
+
+// limpiar las vistas en cache
+php artisan view:clear
 
 
 
