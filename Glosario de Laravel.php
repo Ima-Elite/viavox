@@ -1,15 +1,7 @@
 <?php
 
 
-// Comandos del artisan
-
-// asignar a un alis hacer todas las pruebas que tengas en los archivos test
- alias t=vendor/bin/phpunit
-
-
-
-
-* Donde estan las cosas:
+* Donde estan las cosas en Laravel:
 
 // Rutas para la web en: 
 routes/web.php
@@ -20,22 +12,30 @@ resource/views/
 // Migraciones
 database/migrations
 
-
 // Controladores
 app/Http/Controlles
-
 
 // Vistas en Cache
 storage/framework/views
 
+
+* Comandos
+
+// asignar a un alis hacer todas las pruebas que tengas en los archivos test
+ alias t=vendor/bin/phpunit
+
+// levantar el servidor local
+php artisan serve
+
 // limpiar las vistas en cache
 php artisan view:clear
 
-
+// crear un controlador
+php artisan make:controller NombreControlador
 
 * Ejemplo de controlador:
 
-// se crea asi: // php artisan make:controller NombreControlador
+// php artisan make:controller NombreControlador
 
 class TodosController extends Controller
 {

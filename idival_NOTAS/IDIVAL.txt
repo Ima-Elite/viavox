@@ -1,0 +1,12 @@
+Probelmas IDIVAL.
+
+- noticias al pasar a la pagina 2 del listado de noticias, no se actualizan, siguen apareciendo las mismas. 
+
+- filtro de categorías de noticias tampoco funciona.
+
+- el buscador de la web tampoco funciona.
+
+- En el apartado de documentación https://www.idival.org/documentacion/?paged=&filtro=Imagen+Corporativa la pagina 2 siempre muestra la pagina 1, no se ve la documentación de la pagina 2.
+
+
+
