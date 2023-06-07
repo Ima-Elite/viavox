@@ -123,7 +123,15 @@ jQuery(document).ready(function($){
     //     $('#paged').val(1)
     //     $("#category_form").submit();
     // });
+
+
+    // nuevo descomentarla
+     // $("#filtro").on("change", function () {
+    //     $('#paged').val(1)
+    //     $("#category_form").submit();
+    // });
 	
+
 // 	$(".category-filter").on("click", function () {
 //         $('#paged').val(1)
 //         $("#category_form").submit();

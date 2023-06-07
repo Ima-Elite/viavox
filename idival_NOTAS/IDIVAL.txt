@@ -1,4 +1,4 @@
-Probelmas IDIVAL.Probelmas IDIVAL.
+Probelmas IDIVAL.
 
 - noticias al pasar a la pagina 2 del listado de noticias, no se actualizan, siguen apareciendo las mismas. 
 
@@ -16,3 +16,6 @@ Probelmas IDIVAL.Probelmas IDIVAL.
 V. En el apartado de documentación la pagina 2 siempre muestra la pagina 1, no se ve la documentación de la pagina 2.
 
 (Arreglado, quitado la paginacion, permitiendo que por página se vean 100 elemenos no solo 7. En la línea 82 de: page-documentacion.php)
+
+
+

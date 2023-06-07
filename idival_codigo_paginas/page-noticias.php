@@ -87,6 +87,7 @@
                 </div>
                 <div class="col-md-4 mt-3 d-inline-block" id="posts">
                     <div class="text-center">
+                        
                         <span>Filtrar por: </span>
                         <div class="d-inline-block">
                             <form method="post" action="<?php echo $post_action; ?>" name="category_form" id="category_form">

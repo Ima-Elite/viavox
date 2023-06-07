@@ -1,0 +1,42 @@
+- Paquete office (word, excel, acces...)
+
+- Evernote.
+
+- Visual Studio.
+
+- Nottepad++.
+
+- Sublime Text.
+
+- Zoom.
+
+- Filezilla.
+
+- Git Extensions.
+
+- Team Viewer.
+
+- Workbench.
+
+- MySql Workbench.
+
+- Obs Studio.
+
+- Outlook
+
+- PowerPoint.
+
+- 7 Zip.
+
+- Wampserver64.
+
+- Adobe Acrobat DC.
+
+- Total Validator Test.
+
+- Docker Desktop.
+
+- Composer - PHP Dependency Manager.
+
+- F.Lux.
+

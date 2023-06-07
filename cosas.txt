@@ -3,9 +3,10 @@ https://styde.net/laravel-5/
 
 
 
-
-
-
 Mandar foto a m.isabel.
+
+
+
+copiar los ficheros php de la carpeta de: template-parts  a la carpeta : idival_codigo_paginas
 
 
