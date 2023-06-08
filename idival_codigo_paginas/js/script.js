@@ -119,13 +119,15 @@ jQuery(document).ready(function($){
         }
     }
 
-    // $("#filtro").on("change", function () {
-    //     $('#paged').val(1)
-    //     $("#category_form").submit();
-    // });
+
+	// esta parte gestiona el menú de la página noticias y permite que el filtro cambie de categoria para las distintas query
+	   $("#filtro_noticias").on("change", function () {   
+        $('#paged').val(1)
+         $("#category_noticias").submit();
+     });
 
 
-    // nuevo descomentarla
+   
      // $("#filtro").on("change", function () {
     //     $('#paged').val(1)
     //     $("#category_form").submit();
@@ -166,6 +168,10 @@ jQuery(document).ready(function($){
     //         window.location.href = e.target.href
     //     }
     // })
+
+	
+
+	
 
     $(".toggle").click(function(e){
         e.preventDefault();

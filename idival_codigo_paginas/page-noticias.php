@@ -26,18 +26,18 @@
     $title = 'Noticias';
     $first_filter = 'Todo';
     $search = 'No se encontraron resultados';
-	$post_action = '/noticias/#posts';
-	$category_filter = 'noticias';
+    $post_action = '/noticias/#posts';
+    $category_filter = 'noticias';
 
     $parent = 75;
-	if ($idioma == 'en') {
-		$parent = 304;
+    if ($idioma == 'en') {
+        $parent = 304;
         $title = 'News';
         $first_filter = 'All';
         $search = 'No results found';
-		$category_filter = 'news';
-		$post_action = '/en/news/#posts';
-	}
+        $category_filter = 'news';
+        $post_action = '/en/news/#posts';
+    }
 
     // Get categories
     $args = array(
@@ -88,18 +88,28 @@
                 <div class="col-md-4 mt-3 d-inline-block" id="posts">
                     <div class="text-center">
                         
+                        <!-- -------------------------------Menú de la página: ----https://www.idival.org/noticias/------------------------------------------------------>
+                       
                         <span>Filtrar por: </span>
                         <div class="d-inline-block">
-                            <form method="post" action="<?php echo $post_action; ?>" name="category_form" id="category_form">
+                            <form method="post" action="<?php echo $post_action; ?>" name="category_form" id="category_noticias">
                                 <input type="hidden" name="paged" id="paged" value="<?php echo $_POST['paged']; ?>">
                                 <div class="arrow">
-                                    <select name="filtro" class="form-select round-select colorAzul" id="filtro" >
+                                    
+                                    
+                                    
+                                   <select name="filtro" class="form-select round-select colorAzul" id="filtro_noticias" >
                                         <option value=''><?php echo  $first_filter; ?></option>
-                                        <?php foreach($categories as $category): ?>
+                                       
+                                        <?php  foreach($categories as $category): ?>
+                                       
                                         <option value="<?php echo $category->name; ?>" <?php if ($category_filter == $category->name) :?> selected <?php endif; ?>>
                                             <?php echo $category->name; ?>
                                         </option>
-                                        <?php endforeach; ?>
+                                       
+                                        <?php  endforeach; ?>
+                                       
+                                       
                                     </select>
                                 </div>
                             </form>
@@ -256,31 +266,31 @@
                 <nav aria-label="post navigation">
                     <ul id="pagination" class="pagination justify-content-center">
                     <?php
-                        foreach($pagination as $page) :
-                            // get current page 
+                       foreach($pagination as $page) :
+                            // get current page <---- este coment no es mío
                             $current = false;
                             if (count(explode('current', $page)) > 1) {
-                                $current = true;
+                               $current = true;
                             }
-							if(count(explode('current', $page)) >= 3){
-								// replace clases
-								$page = str_replace('page-numbers', 'page-link', $page);
-								$page = str_replace('current', '', $page);
-								$page = str_replace('Siguiente', '', $page);
-								$page = str_replace('Anterior', '', $page);
-							}else{
-								// replace clases
-								$page = str_replace('page-numbers', 'page-link', $page);
-								$page = str_replace('current', '', $page);
-								$page = str_replace('Siguiente', '', $page);
-								$page = str_replace('Anterior', '', $page);
-							}
+                            if(count(explode('current', $page)) >= 3){
+                                // replace clases
+                                $page = str_replace('page-numbers', 'page-link', $page);
+                                $page = str_replace('current', '', $page);
+                                $page = str_replace('Siguiente', '', $page);
+                                $page = str_replace('Anterior', '', $page);
+                            }else{
+                                // replace clases
+                                $page = str_replace('page-numbers', 'page-link', $page);
+                                $page = str_replace('current', '', $page);
+                                $page = str_replace('Siguiente', '', $page);
+                                $page = str_replace('Anterior', '', $page);
+                            }
                     ?>
                         <li class="page-item <?php if ($current) : ?> active <?php endif; ?>">
                             <?php echo $page; ?>
-						
-						</li>
-                    <?php endforeach; ?>
+                        
+                        </li>
+                    <?php  endforeach; ?>
                     </ul>
                 </nav>
             </div>

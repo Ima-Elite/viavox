@@ -5,12 +5,14 @@ Probelmas IDIVAL.
 (COMPROBADO, no funciona ninguna).
 
 
-- filtro de categorías de noticias tampoco funciona. (COMPROBADO)
+
 
 - el buscador de la web tampoco funciona. (COMPROBADO)(Página no encontrada, se rompe)
 
 
 
+
+V. filtro de categorías de noticias ya funciona. 
 
 
 V. En el apartado de documentación la pagina 2 siempre muestra la pagina 1, no se ve la documentación de la pagina 2.
