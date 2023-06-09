@@ -3,10 +3,14 @@ https://styde.net/laravel-5/
 
 
 
-Mandar foto a m.isabel.
+
+2 cosas mal, es un login de usuario.
 
 
 
-copiar los ficheros php de la carpeta de: template-parts  a la carpeta : idival_codigo_paginas
 
 
+php artisan tinker 
+
+
+Hash::make('Viavox2023')

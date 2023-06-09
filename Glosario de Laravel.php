@@ -33,9 +33,8 @@ php artisan view:clear
 // crear un controlador
 php artisan make:controller NombreControlador
 
-* Ejemplo de controlador:
 
-// php artisan make:controller NombreControlador
+* Ejemplo de controlador:
 
 class TodosController extends Controller
 {
